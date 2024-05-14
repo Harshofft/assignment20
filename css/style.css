@@ -67,3 +67,57 @@ li:hover{
 .active{
     background-color: #6666ff;
 }
+
+.bottom-navbar{
+    display: none;
+    background-color: #00264d;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+#active{
+    background-color: #6666ff;
+}
+.bottom-navbar a img:hover{
+    background-color: #6666ff;
+}
+
+
+/* Mobile Devices */
+@media screen and (min-width: 00px) and (max-width: 600px) {
+    .side-bar{
+        display: none;
+    }
+    .bottom-navbar{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-navbar  img{
+        height: 40px;
+        margin: 7px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    
+   
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    .side-bar{
+        display: none;
+    }
+    .bottom-navbar{
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-navbar  img{
+        height: 40px;
+        margin: 7px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    
+}
+     
